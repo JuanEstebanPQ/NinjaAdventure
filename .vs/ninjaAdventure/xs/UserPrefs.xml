@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{670AF965-F7D1-E046-C7A1-B288AEE72DDF}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyHit.cs">
+    <Files>
+      <File FileName="Assets/Scripts/EnemyHealth.cs" Line="17" Column="1" />
+      <File FileName="Assets/Scripts/EnemyHit.cs" Line="15" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ninjaAdventure" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="EnemyHit.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a9a73cd8-f10e-4726-9071-384c5828135d" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

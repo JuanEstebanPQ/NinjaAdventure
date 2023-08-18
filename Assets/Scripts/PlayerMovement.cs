@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.Play("Attack");
             isAttacking = true;
-            direction = Vector2.zero;
+            AttackAnimDirection();
         }
     }
 
@@ -54,6 +54,27 @@ public class PlayerMovement : MonoBehaviour
             animator.Play("Run");
         }
         else animator.Play("Idle");
+    }
+
+    private void AttackAnimDirection()
+    {
+        direction.x = animator.GetFloat("Horizontal");
+        direction.y = animator.GetFloat("Vertical");
+
+        if (Mathf.Abs(direction.y) > Mathf.Abs(direction.x))
+        {
+            direction.x = 0;
+        }
+        else
+        {
+            direction.y = 0;
+        }
+        direction = direction.normalized;
+
+        animator.SetFloat("Horizontal", direction.x);
+        animator.SetFloat("Vertical", direction.y);
+
+        direction = Vector2.zero;
     }
 
     private void EndAttack()
